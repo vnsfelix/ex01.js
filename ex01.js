@@ -95,3 +95,97 @@ let livro = {
 
 console.log(`Ex06:\nO livro ${livro.titulo} foi escrito por ${livro.autor} e possui ${livro.paginas} páginas.\n--------------------`);
 
+// Exercício 7 – Filme
+// Crie um objeto filme com:
+// nome
+// genero
+// ano
+// Depois, exiba a mensagem:
+// O filme Matrix é do gênero Ficção e foi lançado em 1999.
+
+let filme = {
+    nome: "Matrix",
+    genero: "Ficção",
+    ano: 1999
+};
+
+console.log(`Ex07:\nO filme ${filme.nome} é do gênero ${filme.genero} e foi lançado em ${filme.ano}.\n--------------------`);
+
+// Exercício 8 – Jogo
+// Crie um objeto jogo com:
+// nome
+// plataforma
+// genero
+// Depois, exiba a mensagem:
+// O jogo Minecraft roda na plataforma PC e pertence ao gênero Sandbox.
+
+let jogo = {
+    nome: "Minecraft",
+    plataforma: "PC",
+    genero: "Sandbox"
+};
+
+console.log(`Ex08:\nO jogo ${jogo.nome} roda na plataforma ${jogo.plataforma} e pertence ao gênero ${jogo.genero}.\n--------------------`);
+
+// Exercício 09 – Escola
+// Crie um objeto escola com:
+// nome
+// cidade
+// turno
+// Depois, exiba a mensagem:
+// A escola EEEP funciona na cidade de Fortaleza no turno da manhã.
+
+let escola = {
+    nome: "EEEP",
+    cidade: "Fortaleza",
+    turno: "manhã"
+};
+
+console.log(`Ex09:\nA escola ${escola.nome} funciona na cidade de ${escola.cidade} no turno da ${escola.turno}.\n--------------------`);
+
+// O objeto deve possuir as seguintes propriedades:
+// usuario
+// senha
+// nome
+// email
+// nivel
+// curso
+// turma
+// idade
+
+// Utilize os seguintes dados:
+// Usuário: eduardo
+// Senha: 1234
+// Nome: Eduardo Silva
+// E-mail: eduardo@email.com
+// Nível: administrador
+// Curso: Desenvolvimento de Sistemas
+// Turma: DS 2
+// Idade: 18
+
+// Depois de criar o objeto, utilize as propriedades do objeto para montar e exibir no console as seguintes informações:
+// Nome do usuário
+// Nome completo
+// E-mail
+// Curso
+// Turma
+// Idade
+// Nível de acesso
+// Senha
+
+// Por fim, crie uma mensagem utilizando várias propriedades do objeto:
+
+// O usuário eduardo, de 18 anos, está matriculado no curso de Desenvolvimento de Sistemas, turma DS 2. Seu nível de acesso é administrador e seu e-mail é eduardo@email.com. A senha cadastrada é 1234.
+
+let usuarioCompleto = {
+    usuario: "eduardo",
+    senha: "1234",
+    nome: "Eduardo Silva",
+    email: "eduardo@email.com",
+    nivel: "administrador",
+    curso: "Desenvolvimento de Sistemas",
+    turma: "DS 2",
+    idade: 18
+};
+
+console.log(`Ex10:\nO usuário ${usuarioCompleto.usuario}, de ${usuarioCompleto.idade} anos, está matriculado no curso de ${usuarioCompleto.curso}, turma ${usuarioCompleto.turma}. Seu nível de acesso é ${usuarioCompleto.nivel} e seu e-mail é ${usuarioCompleto.email}. A senha cadastrada é ${usuarioCompleto.senha}.\n--------------------`);
